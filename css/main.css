@@ -92,3 +92,11 @@ ul li {
   font-size: 1.125rem;
   list-style-type: circle;
 }
+
+a:visited {
+  color: #ccc;
+}
+
+nav a:hover {
+  color: #3f1622;
+}
