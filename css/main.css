@@ -100,3 +100,6 @@ a:visited {
 nav a:hover {
   color: #3f1622;
 }
+a {
+text-decoration: none;
+}
