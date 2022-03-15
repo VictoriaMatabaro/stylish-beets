@@ -93,14 +93,17 @@ ul li {
   list-style-type: circle;
 }
 
-a:visited {
-  color: #ccc;
-}
-
 nav a:hover {
   color: #3f1622;
 }
 
 a {
+  color: #9f2440;
   text-decoration: none;
+}
+
+footer time {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: normal;
 }
