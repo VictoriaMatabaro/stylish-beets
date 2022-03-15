@@ -118,7 +118,10 @@ small {
 
 footer cite {
   font-size: 1.125rem;
-  font-style: normal;
+  font-style: italic;
+  text-align: center;
+  font-weight: normal;
+
 }
 
 p:first-of-type {
