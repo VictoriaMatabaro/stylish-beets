@@ -12,8 +12,10 @@ body {
 }
 
 img {
-  margin: 10px 12px;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 h1, h2 {
@@ -24,7 +26,7 @@ h1, h2 {
 }
 
 nav ol {
-  font-family: "PT Serif", serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   list-style-type: none;
@@ -74,7 +76,7 @@ h2 + ol {
 p {
   font-family: "PT Serif", serif;
   color: #222;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 h2 + p {
@@ -117,4 +119,19 @@ small {
 footer cite {
   font-size: 1.125rem;
   font-style: normal;
+}
+
+p:first-of-type {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #222;
+  font-size: 1.5rem;
+}
+
+p:last-of-type {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
 }
