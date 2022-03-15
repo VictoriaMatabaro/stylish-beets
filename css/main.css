@@ -107,3 +107,8 @@ footer time {
   font-size: 1.125rem;
   font-weight: normal;
 }
+
+small {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+}
