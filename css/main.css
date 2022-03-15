@@ -57,6 +57,7 @@ p:first-child {
   font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5rem;
+
 }
 
 strong {
@@ -111,4 +112,9 @@ footer time {
 small {
   font-family: "PT Serif", serif;
   font-size: 1.125rem;
+}
+
+footer cite {
+  font-size: 1.125rem;
+  font-style: normal;
 }
